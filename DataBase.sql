@@ -1,0 +1,7 @@
+CREATE TABLE llamadas (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  numOrigen VARCHAR(20) NOT NULL,
+  numDestino VARCHAR(20) NOT NULL,
+  duracion INT NOT NULL,
+  costo DECIMAL(10,2) NOT NULL
+);
